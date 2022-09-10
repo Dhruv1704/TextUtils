@@ -1,0 +1,109 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.container{
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.textarea-form{
+  width: 1000px;
+  height: 200px;
+  font-size: 2em;
+  border: 1px solid grey;
+}
+
+.upperBtn{
+  font-size: 1.1rem;
+  margin-top: 1em;
+  margin-right: 1em;
+  padding: 0.5em;
+  color: white;
+  background: #61dafb;
+  border-radius: 6px;
+  border: none;
+}
+
+.clear{
+  background: orangered;
+}
+
+.upperBtn:hover{
+  background: deepskyblue;
+}
+
+.clear:hover{
+  background: red;
+}
+
+.upperBtn:active{
+  transform: scale(1.1);
+}
+
+.About{
+  font-size: 1.3rem;
+  margin-top: 3em;
+}
+
+/* The alert message box */
+.alert {
+  padding: 20px;
+  background-color: #2eb885; /* Red */
+  color: white;
+  margin-bottom: 15px;
+}
+
+/* The close button */
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+  user-select: none;
+}
+
+/* When moving the mouse over the close button */
+.closebtn:hover {
+  color: black;
+}
